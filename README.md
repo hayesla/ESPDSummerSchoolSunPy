@@ -49,7 +49,7 @@ You can also download these notebooks by clicking on green `code` button on the 
 
 #### 2. Create a conda environment
 
-We recommend creating a new conda environment and install the requried packages used in these notebooks. [Here](https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307) is a nice introduction to anaconda environments for those new to the concept, and [here](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) is a conda cheatsheet which may help too! 
+We recommend creating a new conda environment and install the requried packages used in these notebooks.
 
 The python packages required to run these workshop notebooks are listed in the `environment.yml` file in this repository. To create a new environment with these packages installed you can open a terminal and type:
 
