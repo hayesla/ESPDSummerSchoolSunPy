@@ -1,16 +1,12 @@
 # SunPy tutorial
-## Solar Orbiter Summer School 2022
-Given by **Laura A. Hayes (ESA/ESTEC)** with many thanks to **Will Barnes (AU/NASA GSFC), Stuart Mumford (Aperio Software), Albert Shih (NASA GSFC), David Stansby (UCL) and the SunPy community**.
+## ESPD Summer School Apr 2024
 
 <div>
 <img src="./images/sunpy_logo.png" width="500" align="left"/>
 </div>
 
 
-This is a reporsitory to hold all the notebooks that will be used in the hands-on session for an introduction to the SunPy project and ecosystem at the [Solar Orbiter summer school](https://solarorbiter.sciencesconf.org) that takes place in Sète 30 May - 3 June 2022.
-
-These notebooks are heavily based on other tutorials such as the [AAS/SPD meeting](https://github.com/sunpy/aas-2021-workshop) and those at the [Python in Heliophysics Summer School](https://github.com/heliophysicsPy/summer-school).  
-
+This is a reporsitory to hold all the notebooks that will be used in the hands-on session for an introduction to the SunPy project and ecosystem at the [European ](1st European solar physics division) that takes place in Dubrovnik 29 Apr - 3 May 2024.
 
 -----------------------------------
 ## Resources
@@ -42,11 +38,11 @@ Here are the steps you'll need to run:
 
 If you want to run these notebooks locally you can clone this reposity (or fork it and then clone it from your page). To do this run this command:
 
-- ```git clone  https://github.com/hayesla/solarorbiter-summerschool-sunpy```
+- ```git clone https://github.com/hayesla/ESPDSummerSchoolSunPy.git```
 
 If you have first forked it then you can run:
 
-- ```git clone  https://github.com/<username>/solarorbiter-summerschool-sunpy```
+- ```git clone https://github.com/<username>/ESPDSummerSchoolSunPy.git```
 
 You can also download these notebooks by clicking on green `code` button on the top right hand side, and then by clicking download zip. 
 
@@ -63,7 +59,7 @@ This will then create a new conda environment called `sunpy-tutorial` (this name
 
 You can then activate this environment by typing:
 
-- ``` conda activate sunpy-tutorial```
+- ```conda activate sunpy-tutorial```
 
 Note your prompt should change and now have `sunpy-tutorial` near the start. If you want to list all your conda environments you can type
 ``` conda info -e```. You should see `base` which is your base enviroment, the `sunpy-tutorial` one, and any others you have created! 
@@ -81,9 +77,9 @@ You can also install new packages in this environment by using `conda install <p
 
 ### 3. Start a jupyter notebook!
 
-Once you have your environment activated (remember to first type `sunpy-tutorial`) then in your local `solarorbiter-summerschool-sunpy` repository type
+Once you have your environment activated (remember to first type `conda activate sunpy-tutorial`) then in your local `ESPDSummerSchoolSunPy` repository type
 
-- ```jupyter notebook ```
+- ```jupyter lab ```
 
 This should then open the notebooks in your default browser!
 
@@ -91,39 +87,7 @@ If you are having any issues - just make sure first that you are in the `sunpy-t
 
 Happy coding!!
 
-
-#### 4. Pulling the most up-to-date version
-Throughout the workshop, these notebooks were updated and further notebooks were added. To make sure that your local repository reflects whats currently here you will need to run a `git pull`. This will pull the most up-to-date version of this repository. Before you do this however, you will want to check which remote you have linked to this repository. To find out this you can type this in your local `solarorbiter-summerschool-sunpy` repository:
-
-- ```git remote -v``` 
-
-and this will list the current remotes
-It might looks something like this
-
-```
-origin	https://github.com/<username>/solarorbiter-summerschool-sunpy (fetch)
-origin	https://github.com/<username>/solarorbiter-summerschool-sunpy (push)
-upstream	https://github.com/hayesla/solarorbiter-summerschool-sunpy (fetch)
-upstream	https://github.com/hayesla/solarorbiter-summerschool-sunpy (push)
-```
-
-what you will want to do is pull the main branch from the one that is linked to `https://github.com/hayesla/solarorbiter-summerschool-sunpy` - which in this example is `upstream`. Hence to pull the latest version of this repository you would type:
-
-- `git pull upstream main` 
-
-and this will update your local files. 
-
-Otherwise if when you typed `git remote -v` and it looks like
-```
-origin	https://github.com/hayesla/solarorbiter-summerschool-sunpy (fetch)
-origin	https://github.com/hayesla/solarorbiter-summerschool-sunpy  (push)
-```
-then you would type
-
-- ``` git pull origin main```
-
-to update your local files. 
-
+Given by **Laura A. Hayes (ESA/ESTEC)** with many thanks to **Will Barnes (AU/NASA GSFC), Stuart Mumford (Aperio Software), Albert Shih (NASA GSFC), David Stansby (UCL) and the SunPy community**.
 
 
 
