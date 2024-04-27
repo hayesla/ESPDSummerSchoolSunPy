@@ -6,7 +6,7 @@
 </div>
 
 
-This is a reporsitory to hold all the notebooks that will be used in the hands-on session for an introduction to the SunPy project and ecosystem at the [European ](1st European solar physics division) that takes place in Dubrovnik 29 Apr - 3 May 2024.
+This is a reporsitory to hold all the notebooks that will be used in the hands-on session for an introduction to the SunPy project and ecosystem at the European Solar Physics Division (ESPD) [summer school](https://oh.geof.unizg.hr/index.php/en/espd-2024) that takes place in Dubrovnik 29 Apr - 3 May 2024.
 
 -----------------------------------
 ## Resources
