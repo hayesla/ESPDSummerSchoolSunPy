@@ -5,3 +5,4 @@ sunpy-soar
 sunpy[all]
 sunraster
 sunkit-instruments
+spiceypy
