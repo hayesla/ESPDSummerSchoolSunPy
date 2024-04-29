@@ -31,7 +31,11 @@ If you don't want to run these locally, or you are having issues with getting th
 
 ## Run locally
 
-Here are the steps you'll need to run:
+
+To run these notebooks locally, I'd recommend you follow the next steps. 
+The main things here is that you have the necessary packages installed. Mainly, you'll need sunpy 5.1. If you follow below, we set up a virtual env and install the required packages needed for this tutorial, which are listed in the environment.yml file in this repository.
+
+If you don't want to follow the next steps, you can also check out our [sunpy installation page](https://docs.sunpy.org/en/stable/tutorial/installation.html).
 
 #### 1. Download the files using git
 
