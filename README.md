@@ -25,8 +25,7 @@ Below are a few helpful links for finding out more about SunPy, including our we
 
 
 ## Run in Binder
-If you don't want to run these locally, or you are having issues with getting them started - all the notebooks in this repository can be run with binder. Click here [![Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/hayesla/solarorbiter-summerschool-sunpy/HEAD) to launch binder and then run the notebooks in your browser. 
+If you don't want to run these locally, or you are having issues with getting them started - all the notebooks in this repository can be run with binder. Click here [![Binder][![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hayesla/ESPDSummerSchoolSunPy/HEAD) to launch binder and then run the notebooks in your browser. 
 
 **Note** It may take a few minutes to load up the first time you launch it.
 
@@ -55,14 +54,14 @@ The python packages required to run these workshop notebooks are listed in the `
 
 - ```conda env create -f environment.yml```
 
-This will then create a new conda environment called `sunpy-tutorial` (this name is listed in the `enviroment.yml` file).
+This will then create a new conda environment called `espd_summer_school` (this name is listed in the `enviroment.yml` file).
 
 You can then activate this environment by typing:
 
-- ```conda activate sunpy-tutorial```
+- ```conda activate espd_summer_school```
 
-Note your prompt should change and now have `sunpy-tutorial` near the start. If you want to list all your conda environments you can type
-``` conda info -e```. You should see `base` which is your base enviroment, the `sunpy-tutorial` one, and any others you have created! 
+Note your prompt should change and now have `espd_summer_school` near the start. If you want to list all your conda environments you can type
+```conda info -e```. You should see `base` which is your base enviroment, the `espd_summer_school` one, and any others you have created! 
 
 ##### 2.2 Updating the environment.yml file
 If an update is made to the `environment.yml` file then you will need to type 
@@ -73,17 +72,17 @@ This may be important after you have down a `git pull` (see below 4.)
 
 ##### 2.3 Installed new packages in this environment
 
-You can also install new packages in this environment by using `conda install <package>`or by using pip! (`pip install <package<`)
+You can also install new packages in this environment by using `conda install <package>`or by using pip! (`pip install <package?`)
 
 ### 3. Start a jupyter notebook!
 
-Once you have your environment activated (remember to first type `conda activate sunpy-tutorial`) then in your local `ESPDSummerSchoolSunPy` repository type
+Once you have your environment activated (remember to first type `conda activate espd_summer_school`) then in your local `ESPDSummerSchoolSunPy` repository type
 
 - ```jupyter lab ```
 
 This should then open the notebooks in your default browser!
 
-If you are having any issues - just make sure first that you are in the `sunpy-tutorial` environment before you start jupyter.
+If you are having any issues - just make sure first that you are in the `espd_summer_school` environment before you start jupyter.
 
 Happy coding!!
 
