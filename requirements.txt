@@ -1,8 +1,0 @@
-astroquery
-jupyterlab
-ipywidgets
-sunpy-soar
-sunpy[all]
-sunraster
-sunkit-instruments
-spiceypy

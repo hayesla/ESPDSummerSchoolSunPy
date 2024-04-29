@@ -1,0 +1,17 @@
+name: espd_summer_school
+channels:
+- conda-forge
+dependencies:
+- python=3.9  
+- pip
+- glymur
+- pip:
+  - sunpy[all]
+  - ipykernel
+  - aiapy
+  - sunpy-soar
+  - ipywidgets
+  - astroquery
+  - spiceypy
+  - sunkit-image
+  - jupyterlab
