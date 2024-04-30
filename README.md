@@ -54,7 +54,12 @@ You can also download these notebooks by clicking on green `code` button on the 
 
 We recommend creating a new conda environment and install the requried packages used in these notebooks.
 
-The python packages required to run these workshop notebooks are listed in the `environment.yml` file in this repository. To create a new environment with these packages installed you can open a terminal and type:
+The python packages required to run these workshop notebooks are listed in the `environment.yml` file in this repository. 
+First, move into the directory:
+
+- `cd ESPDSummerSchoolSunPy`
+
+To create a new environment with these packages installed you can open a terminal and type:
 
 - ```conda env create -f environment.yml```
 
